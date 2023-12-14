@@ -15,6 +15,33 @@ npm run build
 npm run test
 ```
 
+
+
+## Steps by Steps
+
+- (Optional) Build code to check error
+```bash 
+npm run build
+```
+
+- Login to AWS Account
+```bash
+aws sso login
+```
+OR
+```bash
+aws sso login --profile <profile_name>
+```
+
+- Deploy to AWS
+```bash
+cdk deploy
+```
+OR
+```bash
+cdk deploy --profile <profile_name>
+```
+
 ## Useful commands
 
 * `npm run build`   compile typescript to js
