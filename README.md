@@ -1,7 +1,19 @@
-# Welcome to Node.js AWS CDK 👋
-![Version](https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000)
+<h1 align="center">Welcome to IAC with CDK - code by Node.js 👋</h1>
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
+  <img src="https://img.shields.io/badge/node-%3E%3D14.15.0-blue.svg" />
+  <img src="https://img.shields.io/badge/npm-%3E%3D6.14.8-blue.svg" />
+  <a href="#" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+  </a>
+</p>
 
-> Use AWS CDK with Node.js. The `cdk.json` file tells the CDK Toolkit how to execute your app.
+> We will use Node.js and CDK to build AWS resources. The `cdk.json` file tells the CDK Toolkit how to execute your app.
+
+## Prerequisites
+
+- node >=14.15.0
+- npm >=6.14.8
 
 ## Build
 
@@ -14,8 +26,6 @@ npm run build
 ```sh
 npm run test
 ```
-
-
 
 ## Steps by Steps
 
@@ -55,12 +65,13 @@ cdk deploy --profile <profile_name>
 
 👤 **Tran Minh**
 
+* Website: www.vuilendi.com
 * Github: [@vuilendi](https://github.com/vuilendi)
+* LinkedIn: [@vuilendi](https://linkedin.com/in/vuilendi)
 
 ## Show your support
 
 Give a ⭐️ if this project helped you!
-
 
 ***
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
